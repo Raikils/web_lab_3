@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gamesell</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+<section class="header">
+	<div class="container headercont">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4 logo">
+			<img src="img/logo.png" width="100px" height="100px" alt="logo">
+			<h1>Gamesell</h1>
+			<p>Лучшая компания</p>
+		    </div>
+		    <div class="col-3"></div>
+		    <div class="col-12 col-sm-12 col-md-5 col-lg-5 phone">
+		    	<p>+1(111)111-11-11</p>
+			    <p>+1(111)111-11-11</p>
+		    </div>
+		</div>
+	</div>
+</section>
+<section class="menu">
+<div class="container" style="max-width: 980px;">
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="index.html">Главная</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="catalog.html">Каталог</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Доставка и оплата</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Контакты</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Корзина</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+</section>
+<div class="slider">
+	<img src="img/slider.jpg">
+</div>
+<section>
+	<div class="container maincontainer">
+		<div id="cart_content"></div>
+		<p class="ressum" id="sum">Итог: 0₴</p>
+	</div>
+</section>
+<footer class="page-footer">
+	<div class="container foot">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+				&copy; 2020-2021 "Gamesell"
+			    <br>info@name.ua
+			</div>
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+				<ul class="list-unstyled">
+					<li class="my-2"><a href="index.html" class="text-white">Главная</a></li>
+			        <li class="my-2"><a href="catalog.html" class="text-white">Каталог</a></li>
+			        <li class="my-2"><a href="#" class="text-white">Доставка и оплата</a></li>
+			        <li class="my-2"><a href="contact.html" class="text-white">Контакты</a></li>
+			        <li class="my-2"><a href="#" class="text-white">Корзина</a></li>
+				</ul>
+			</div>
+			<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+				<img src="img/logo.png" width="50px" height="50px" alt="logo" class="flg">
+			    <p><a href="#" class="text-white">Разработка сайта</a>- компания Gamesell</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="scripts/cart.js"></script>
+</body>
+</html>
